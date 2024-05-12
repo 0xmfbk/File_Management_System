@@ -291,7 +291,10 @@ public class File_Management_System {
         System.out.println("\n\n---> Directory Details:\n");
         directory.displayDetails();
         
+
+	// Closing message
         
+        System.out.println("Program terminated. Thank you for using this program!");
         
     }
     
