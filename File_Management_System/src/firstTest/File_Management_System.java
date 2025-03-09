@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 /*
 											 -----------------------------------------------------
-											 | Mini project (2) 								 |
-											 | Question: (2/2) 							         |
-											 | Written by: Mustafa Banikhalaf - 2021904052       |
-											 | Written by: Mohammad Majdalawy - 2021904045       |
+											 | Mini project (2) 				      |
+											 | Question: (2/2) 				      |
+											 | Written by: Mustafa Banikhalaf        	      |
+											 | Written by: Mohammad Majdalawy        	      |
 											 -----------------------------------------------------
 */
 
