@@ -45,3 +45,39 @@
 ---
 
 ## Example Output
+
+```
+Enter your name: Mustafa
+Enter your major: Computer Science
+Enter your favorite programming language: Java
+
+| Welcome, Mr. Mustafa
+| You are studying Computer Science at Yarmouk University
+| Your favorite programming language is Java
+---> Directory Details:
+
+Name : My_Folder
+Size : 7168 KB
+Created Date : 2024-05-12
+Type: Directory
+
+---> Contents of Directory:
+
+Name : Mustafa_Banikhalaf.txt
+Size : 2048 KB
+Created Date : 2024-05-12
+Type: File
+Extension : txt
+
+Name : Mohammad_Majdalawy.pdf
+Size : 1024 KB
+Created Date : 2024-05-12
+Type: File
+Extension : pdf
+
+Name : Yarmouk_University.doc
+Size : 4096 KB
+Created Date : 2024-05-12
+Type: File
+Extension : doc
+```
