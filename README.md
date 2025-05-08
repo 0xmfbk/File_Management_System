@@ -7,7 +7,7 @@
 
 ## Features
 - **File and Directory Classes**: Defines classes for files and directories with attributes like name, size, and creation date.
-- **Inheritance**: Uses inheritance to extend functionality from a base class (`Mustafa_Mohammad_FileSystemElement`) to derived classes (`File` and `Directory`).
+- **Inheritance**: Uses inheritance to extend functionality from a base class (`Mustafa_FileSystemElement`) to derived classes (`File` and `Directory`).
 - **Polymorphism**: Demonstrates polymorphism by overriding the `displayDetails` method in derived classes.
 - **Encapsulation**: Encapsulates attributes and provides methods to interact with them.
 - **User Interaction**: Collects user information and displays a welcome message.
@@ -15,7 +15,7 @@
 ---
 
 ## How It Works
-1. **Base Class**: `Mustafa_Mohammad_FileSystemElement` serves as the base class with common attributes like name, size, and creation date.
+1. **Base Class**: `Mustafa_FileSystemElement` serves as the base class with common attributes like name, size, and creation date.
 2. **File Class**: Represents a file with an additional attribute for the file extension.
 3. **Directory Class**: Represents a directory that can contain files and subdirectories. It includes methods to add files and display directory contents.
 4. **Main Function**: Collects user information, creates instances of files and directories, and displays their details.
@@ -30,7 +30,7 @@
 ---
 
 ## Code Structure
-- **Base Class**: `Mustafa_Mohammad_FileSystemElement`
+- **Base Class**: `Mustafa_FileSystemElement`
   - Attributes: `Fname`, `Fsize`, `createdDate`
   - Methods: `getSize`, `setSize`, `displayDetails`
 - **File Class**: `File`
@@ -47,7 +47,7 @@
 ## Example Output
 
 ```
-Enter your name: Mustafa
+Enter your name: Khaled
 Enter your major: Computer Science
 Enter your favorite programming language: Java
 
@@ -63,7 +63,7 @@ Type: Directory
 
 ---> Contents of Directory:
 
-Name : Mustafa_Banikhalaf.txt
+Name : Khaled.txt
 Size : 2048 KB
 Created Date : 2024-05-12
 Type: File
