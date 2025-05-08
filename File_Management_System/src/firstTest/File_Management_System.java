@@ -4,17 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-/*
-											 -----------------------------------------------------
-											 | Mini project (2) 				      |
-											 | Question: (2/2) 				      |
-											 | Written by: Mustafa Banikhalaf        	      |
-											 | Written by: Mohammad Majdalawy        	      |
-											 -----------------------------------------------------
-*/
-
-
-
 
 
 /*  
@@ -43,11 +32,11 @@ import java.util.Scanner;
 // Here !!!!!!!!!!!! 
 
 
-class Mustafa_Mohammad_FileSystemElement {
+class Mustafa_FileSystemElement {
 	
 	
 	
-    // Attributes for Mustafa_Mohammad_FileSystemElement
+    // Attributes for Mustafa_FileSystemElement
 	
     private String Fname;
     private int Fsize;
@@ -55,9 +44,9 @@ class Mustafa_Mohammad_FileSystemElement {
 
     
     
-    // Default Constructor for Mustafa_Mohammad_FileSystemElement class
+    // Default Constructor for Mustafa_FileSystemElement class
     
-    public Mustafa_Mohammad_FileSystemElement(String name, int size, String createdDate) {
+    public Mustafa_FileSystemElement(String name, int size, String createdDate) {
         this.Fname = name;
         this.Fsize = size;
         this.createdDate = createdDate;
@@ -104,7 +93,7 @@ class Mustafa_Mohammad_FileSystemElement {
 //      --------File-class-------
 
 
-class File extends Mustafa_Mohammad_FileSystemElement {
+class File extends Mustafa_FileSystemElement {
 	
 	
          // Attributes for files
@@ -162,13 +151,13 @@ class File extends Mustafa_Mohammad_FileSystemElement {
 //     --------Directory-class-------
 
 
-class Directory extends Mustafa_Mohammad_FileSystemElement {
+class Directory extends Mustafa_FileSystemElement {
 	
 	
 	
         // Attribute for directories
 	
-        private ArrayList<Mustafa_Mohammad_FileSystemElement> contents;
+        private ArrayList<Mustafa_FileSystemElement> contents;
 
 
     
@@ -201,7 +190,7 @@ class Directory extends Mustafa_Mohammad_FileSystemElement {
        System.out.println("- Type: Directory\n");
        if (!contents.isEmpty()) {
             System.out.println("\n---> Contents of Directory: \n");
-        for (Mustafa_Mohammad_FileSystemElement element : contents) {
+        for (Mustafa_FileSystemElement element : contents) {
             element.displayDetails();
             System.out.println();
         }  
@@ -216,7 +205,7 @@ class Directory extends Mustafa_Mohammad_FileSystemElement {
     
     //  Method to add a file to the directory
     
-    public void addFile(Mustafa_Mohammad_FileSystemElement file) {
+    public void addFile(Mustafa_FileSystemElement file) {
     	
         contents.add(file);
            
@@ -272,7 +261,7 @@ public class File_Management_System {
         
         // Create instances of File and Directory classes
         
-        File file1_Mustafa = new File("Mustafa_Banikhalaf.txt", 2048, "2024-05-12", "txt");
+        File file1_Mustafa = new File("Khaled.txt", 2048, "2024-05-12", "txt");
         File file2_Mohammad = new File("Mohammad_Majdalawy.pdf", 1024, "2024-05-12", "pdf");
         File file3_Yarmouk = new File("Yarmouk_University.doc", 4096, "2024-05-12", "doc");
         Directory directory = new Directory("My_Folder", 0, "2024-05-12");
@@ -300,31 +289,6 @@ public class File_Management_System {
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
